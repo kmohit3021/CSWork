@@ -1,0 +1,5 @@
+WinActivate("Windows Security")
+Send($CmdLine[1])
+Sleep(1000)
+Send("{ENTER}")
+Sleep(2000)
